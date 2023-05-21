@@ -26,3 +26,5 @@ jobs:
 
     - name: Run tests
       run: docker run -e CI=true yuwangjr/sample-app npm run test -- --coverage --watchAll=false
+
+
